@@ -5,7 +5,7 @@ const prefix = "!";
 mainChan = "";
 histChan = "";
 
-client.login(config.BOT_TOKEN);
+client.login(process.env.NIZ0yPOm1naLWsVcStqx83tGAwfNO7q_);
 
 client.on("ready", () => {
 	mainChan = client.channels.cache.find(tempChan => tempChan.name === "construction");
